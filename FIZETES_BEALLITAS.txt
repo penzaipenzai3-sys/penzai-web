@@ -1,0 +1,12 @@
+PÉNZAI – KÁRTYÁS FIZETÉS
+
+A csomagok és a kártyás gombok már benne vannak.
+Valódi bankkártyás terheléshez Stripe, Barion, SimplePay vagy más fizetési szolgáltató szükséges.
+
+A legegyszerűbb megoldás:
+1. Készíts fizetési linket a szolgáltatónál a Prémium és Ultimate csomaghoz.
+2. A kapott linkeket tedd a csomagok.html fizetési gombjai mögé.
+3. Titkos API-kulcsot SOHA ne tegyél HTML/JS fájlba.
+4. Éles előfizetéshez szerveroldali webhook és adatbázis is szükséges.
+
+Ez a ZIP szándékosan nem terhel valódi kártyát, amíg nincs saját fizetési szolgáltatói fiók és fizetési link.
